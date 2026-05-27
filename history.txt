@@ -1,0 +1,170 @@
+    1  git config --global user.name "Vlada"
+    2  git config --global user.email "vlada.a.evseenko@gmail.com"
+    3  git config --global -l
+    4  init
+    5  git init
+    6  git status
+    7  date > data.txt
+    8  git status
+    9  git add .
+   10  git status
+   11  git commit -m "First commit"
+   12  git log
+   13  git status
+   14  git commit -am "Добавлен второй куплет"
+   15  git status
+   16  git log
+   17  git remote -v
+   18  git remote add origin git@github.com:Valdison4ik/MyGit.git
+   19  git remote -v
+   20  git branch -M main
+   21  git push -u origin main
+   22  exit
+   23  git init
+   24  git add panda.jpg 
+   25  git commit -m "Added photo"
+   26  git branch -M main
+   27  git remote add origin git@github.com:Valdison4ik/git_intro.git
+   28  git push -u origin main
+   29  exit
+   30  git clone https://github.com/savage-demon/git_class.git
+   31  pwd
+   32  cd git_class
+   33  git checkout -b 'task01-add-eva'
+   34  git status
+   35  git add .
+   36  git status
+   37  git commit -m 'Added file students_/eva.html'
+   38  git push
+   39  git push
+   40  git push
+   41  git push
+   42   git push --set-upstream origin task01-add-eva
+   43  git fetch
+   44  git checkout main
+   45  git pull
+   46  git status
+   47  git checkout 'task01-add-eva'
+   48  git status
+   49  git add .
+   50  git commit -m 'Еще изменила Ивана'
+   51  git push
+   52  git status
+   53  git push -f
+   54  git branch -a
+   55  git checkout main
+   56  git branch -d task01-add-eva 
+   57  git branch
+   58  exit
+   59  git status
+   60  git pull
+   61  git log
+   62  git branch Test
+   63  git branch -v
+   64  git checkout Test
+   65  git branch -v
+   66  git checkout main
+   67  git branch -v
+   68  git branch -d Test
+   69  git branch -v
+   70  git checkout -b NewBranch
+   71  git branch -v
+   72  git log
+   73  ls -al
+   74  echo 'Hello new branch' >> NewFile.txt
+   75  git status
+   76  git add NewFile.txt 
+   77  git status
+   78  git commit -m 'Add NewFile.txt'
+   79  git status
+   80  ls -al
+   81  git lig
+   82  git log
+   83  git checkout main
+   84  git log
+   85  ls -al
+   86  git branch -v
+   87  git checkout NewBranch
+   88  git log --all
+   89  exit
+   90  git init
+   91  git branch -M main
+   92  echo "Homework 10" > READM.md
+   93  rm READM.md README.md
+   94  ls -al
+   95  git status
+   96  echo "Homework 10" > README.md
+   97  ls-al
+   98  ls -al
+   99  git commit -am "First commit: added file README.txt"
+  100  ls -al
+  101  git status
+  102  git add
+  103  git add .
+  104  git commit -m "First commit: added file README.txt"
+  105  git log -online
+  106  git log -oneline
+  107  git log
+  108  git clone git@github.com:Valdison4ik/Fork-Test.git
+  109  git branch
+  110  git branch -b eva_138
+  111  git branch
+  112  git branch -a
+  113  git branch Develop
+  114  git branch
+  115  git checkout Develop
+  116  git branch -b eva_138
+  117  git checkout -b eva_138
+  118  nano TaskDescription.txt
+  119  git status 
+  120  git add TaskDescription.txt 
+  121  git status 
+  122  cat README.md 
+  123  date >> README.md 
+  124  git status
+  125  git commit -am "Added TaskDescription.txt + date >> README.md"
+  126  git status
+  127  git push
+  128  git push --set-upstream origin eva_138
+  129  exit
+  130  git status
+  131  ls -al
+  132  nano README.md 
+  133  git status
+  134  git add .
+  135  git status
+  136  git commit -m "README.md file changed"
+  137  git status
+  138  git checkout -b gitignore
+  139  git status
+  140  git add .
+  141  git status
+  142  git commit -m "File .gitignore created"
+  143  git push 
+  144  git remote add origin git@github.com:Valdison4ik/git-branch.git
+  145  git push -u origin main
+  146  git push
+  147   git push --set-upstream origin gitignore
+  148  git clone git@github.com:Valdison4ik/git_ammend_.git
+  149  git status
+  150  cd gig_ammend_
+  151  git status
+  152  git add .
+  153  git commit -m "File README.mb created."
+  154  git checkout -b feature
+  155  nano README.md 
+  156  nano .gitignore 
+  157  git status
+  158  git add .
+  159  git status
+  160  git commit -m "Files README.md, .gitignore changed."
+  161  git push 
+  162  git push --set-upstream origin feature
+  163  git commit --ammend
+  164  git commit --amend
+  165  git status
+  166  git log --online
+  167  git log
+  168  git checkout main
+  169  git merge feature 
+  170  history > history.txt
